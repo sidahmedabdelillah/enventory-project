@@ -13,7 +13,7 @@ services:
     environment:
 
   api:
-    image: abdoubentegar/geii-backend:dev-lite
+    image: abdoubentegar/enventory-api
     restart: on-failure
     depends_on:
       - db
