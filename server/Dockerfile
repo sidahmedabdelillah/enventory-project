@@ -9,5 +9,4 @@ COPY server/package*.json ./
 RUN npm install 
 # Bundle the app source
 COPY . .
-EXPOSE 4007
-CMD [ "npm", "start" ]
+CMD [ "npm", "run" , "dev" ]
